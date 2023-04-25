@@ -55,7 +55,7 @@ const Thirdpage = () => {
   console.log(disable);
   return (
     <div className='container p-5'>
-      <p style={{ fontSize: "20px", color: "#007790", marginTop: "20px" }}>Source of Income*</p>
+      <p style={{ fontSize: "20px", color: "#007790", marginTop: "20px",color:"blue" }}>Source of Income*</p>
       <div className='third-1'>
         <div className='container p-5'>
           <div className='row'>
