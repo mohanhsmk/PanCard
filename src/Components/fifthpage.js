@@ -1,25 +1,6 @@
-import React,{useState,useEffect} from 'react'
+import React from 'react'
 
 const fifthpage = () => {
-
-
-  const [lastName,setLastName] = useState("");
-  const [firstName,setFirstName] = useState("");
-  const [middleName,setMiddleName] = useState("");
-  const [fullName,setFullName] = useState("");
-
-  const getItem = () => {
-    let data = JSON.parse(localStorage.getItem('user-info'));
-    console.log(data);
-    setLastName(data.LastName);
-    setFirstName(data.firstName);
-    setMiddleName(data.MiddleName);
-    setFullName(data.firstName+" "+data.MiddleName+" "+data.LastName);
-}
-useEffect(() => {
-  getItem();
-},[]);
-
   return (
     <div className='container p-5'>
       <h6>Documents submitted as Proof of Identity (POI), Proof of Address (POA) and Proof of Date of Birth (DOB)*</h6>

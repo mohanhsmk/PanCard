@@ -138,7 +138,7 @@ const Home = () => {
        </div>      
           <div className='container p-5'>
               <button type="button" className='btn-1'>Apply Online</button> <button onClick={handlChange} type="button" className='btn-2'>Continue With Application</button>
-              <h1>Online pan Application</h1><br></br>
+              <h1 style={{color:"red"}}>Online pan Application</h1><br></br>
               <p>As per ITD guidelines,'Request for New PAN Card or/and Changes or Correction in PAN Data' application is presently to be used only for update/correction in PAN database. For procedure to link Aadhaar with PAN, please click here.</p><br></br>
               <p>As per provisions of Section 272B of the Income Tax Act., 1961, a penalty of ₹ 10,000 can be levied on possession of more than one PAN.</p>
               <hr></hr>
