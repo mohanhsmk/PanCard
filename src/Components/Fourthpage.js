@@ -4,7 +4,7 @@ const Fourthpage = () => {
   const [select,setSelect] = useState(false);
   const [table,setTable] = useState(false);
   const [table1,setTable1] = useState(false);
-  const [table2,settable2] = useState(true)
+  const [table2,settable2] = useState(true);
 
 const Value1 = (data) => {
      if(data == "indian") {
