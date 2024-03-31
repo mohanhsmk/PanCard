@@ -1,17 +1,18 @@
 import React,{useContext} from "react"
 import {BrowserRouter,Routes,Route} from "react-router-dom";
-import Nav from "./Components/Nav";
 import Home from "./Components/Home";
-import Online from "./Components/Online";
+import About from "./Components/About";
+import Header from "./Components/Header";
+
 
 function App(props) {
   return (
     <>
     <BrowserRouter>
+        <Header/>
        <Routes>
           <Route exact path = "/" element={<Home/>}/>
-          <Route path = "/Nav" element={<Nav/>}/>
-          <Route path = "/online" element={<Online/>}/>
+          <Route path = "/About" element={<About/>}/>
        </Routes>
     </BrowserRouter>
     </>
