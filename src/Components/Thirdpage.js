@@ -432,6 +432,7 @@ const Thirdpage = () => {
         : null
       }
       <button className='btt-1' type="button">Next</button>
+      <button className='btn-1' type="button">Next</button>
     </div>
   )
 }

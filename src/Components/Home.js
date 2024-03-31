@@ -51,6 +51,7 @@ const Home = () => {
         setMiddleName(e.target.value);
     }
 
+
     const Value3 = (e) => {
         setEmail(e.target.value);
     }
@@ -62,6 +63,8 @@ const Home = () => {
     const Value5 = (e) => {
         setCheck(e.target.checked);
     }
+
+    
      const Value6 = (e) => {
         setAppliType(e.target.value);
     }
