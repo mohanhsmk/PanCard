@@ -13,6 +13,9 @@ function App(props) {
        <Routes>
           <Route exact path = "/" element={<Home/>}/>
           <Route path = "/About" element={<About/>}/>
+          <Route path = "/About" element={<About/>}/>
+
+
        </Routes>
     </BrowserRouter>
     </>
